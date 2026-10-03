@@ -1,8 +1,9 @@
-Title: Mechanical properties of 3D-printed prosthetic sockets: A systematic review
-Source URL: https://pubmed.ncbi.nlm.nih.gov/
-License: Open Access
-Date: 2021
+Title: Investigation on three-dimensional printed prosthetics leg sockets coated with different reinforcement materials (Part 1)
+Source URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10958049/
+License: CC BY 4.0
+Date: 2024
 ----------------------------------------
 
-[Placeholder: Please download the full text of 'Mechanical properties of 3D-printed prosthetic sockets: A systematic review' from https://pubmed.ncbi.nlm.nih.gov/ and paste it here.]
-Do not invent or hallucinate the content. Use the real document.
+Transtibial, or below the knee amputation (BKA), accounts for roughly 55.4% of all amputation occurrences in the U.S. and Europe, whereas transfemoral (above the knee amputation) accounts for 24.5%. Transradial, or below-elbow amputation, accounts for 4.7%. Loss of a limb profoundly affects individuals' mental, physical, and psychological well-being. Prosthetics, essential for post-amputation mobility and aesthetic restoration, offer diverse functionality tailored to various needs, from everyday activities like walking to specialized sports such as running and swimming, as well as cosmetic purposes. However, the expense associated with traditional custom prosthetics poses a significant barrier for lower-income groups, underscoring the pressing need for affordable alternatives in contemporary society. The rapid production cycle inherent in 3D printing enables iterative design refinements and customization without significantly extending manufacturing timelines. The integration of 3D printing into prosthetics fabrication marks a monumental shift towards personalized, efficient, and cost-effective solutions for individuals with limb loss. The advantages are manifold, encompassing unparalleled customization capabilities, accelerated production cycles, cost-effectiveness, and the potential for greater accessibility. The intersection of clinical expertise and technological innovation holds the key to maximizing the transformative potential of 3D-printed prosthetics, ultimately enhancing the quality of life and empowering individuals navigating the challenges of limb loss.
+
+There has been an increasing emphasis on incorporating advanced composite materials and innovative manufacturing techniques to address the mechanical limitations and improve the overall performance of these critical prosthetic components. In this study, we propose a methodology encompassing various stages, from CAD design via laser scanning to FDM printing and post-processing.

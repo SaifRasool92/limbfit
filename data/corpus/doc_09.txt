@@ -1,8 +1,11 @@
-Title: Clinical evaluation of 3D printed transradial prostheses
-Source URL: https://journals.plos.org/plosone/
+Title: Investigation on three-dimensional printed prosthetics leg sockets coated with different reinforcement materials (Part 5)
+Source URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10958049/
 License: CC BY 4.0
-Date: 2022
+Date: 2024
 ----------------------------------------
 
-[Placeholder: Please download the full text of 'Clinical evaluation of 3D printed transradial prostheses' from https://journals.plos.org/plosone/ and paste it here.]
-Do not invent or hallucinate the content. Use the real document.
+Finally, a single layer of epoxy resin was applied to the exterior surface of the socket to strengthen it and aid bonding with other materials. This treatment protects the sockets from moisture, chemicals, and UV radiation. First, the epoxy resin and hardener were weighted where the ratio was 3:1 or 75% volume fracture. Later, both of them were mixed together into a cup for 3 min by manually stirring. Then, the final step is to brush the mixed chemicals onto the surface of 3D-printed prosthetics socket.
+
+After post-processing, four groups of three sockets will be reinforced with carbon fiber, carbon-Kevlar, fiberglass, and cement. The fabric lamination process will follow the hand layup process outlined in a previous study about prosthetic foot lamination. Meanwhile, the cement coating will adhere to the manufacturer’s protocol, ensuring the cement layer is maximized to its total capacity. To create five different socket reinforcement groups, three sockets were reinforced with four different reinforcement materials and a control group.
+
+The hand layup method was used to reinforce the carbon fiber fabric onto the prosthetic leg socket. A second layer of carbon fiber fabric was applied by following the same steps as above. Subsequently, the sockets were allowed to dry before trimming, sanding, and receiving a final epoxy resin coating to enhance protection and durability.

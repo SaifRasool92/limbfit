@@ -1,8 +1,9 @@
-Title: The Cyborg Beast: a low-cost 3D-printed prosthetic hand for children with upper-limb differences
-Source URL: https://bmcresnotes.biomedcentral.com/articles/10.1186/s13104-015-0971-9
+Title: 3D printed transtibial prosthetic sockets: A systematic review (Part 3)
+Source URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9550041/
 License: CC BY 4.0
-Date: 2015
+Date: 2022
 ----------------------------------------
 
-[Placeholder: Please download the full text of 'The Cyborg Beast: a low-cost 3D-printed prosthetic hand for children with upper-limb differences' from https://bmcresnotes.biomedcentral.com/articles/10.1186/s13104-015-0971-9 and paste it here.]
-Do not invent or hallucinate the content. Use the real document.
+Multiple methodological differences exist between studies and are relevant to consider when comparing socket strength across studies. Differences in manufacturing processes between fabrication facilities can impact socket shape and, in turn, strength. The study of Gerschutz et al. had nine different facilities, each supplying four check sockets and four LCS for strength testing. Each facility was sent the same STL file along with a set of fabrication instructions. They reported that sockets provided by different facilities had different thicknesses of the distal curvature, resulting in variations in yield strength. With regard to the manufacturing of 3DS, the study by Nickel et al. demonstrated that a patented compositing infill technique could increase the strength of the socket. Specifically, a gap was left in the socket during initial printing, which was then filled with carbon fiber inserts, similar to using rebar in concrete, but in this case to reinforce the u-axis against delamination.
+
+Additional methodological differences, including different limb models and pylon lengths, may also be relevant when comparing socket strength across studies. Different limb shapes can alter the magnitude of hoop and longitudinal stress acting on the inside of the socket wall. With regard to pylon length, the dimension established in the ISO standards is not concrete but rather is datum dimensioned, with all measurements starting from a common reference plane; when one part is lengthened, the other parts connected to it must be relatively shortened, so that the total dimension between reference-to-reference points, as defined by the ISO standards, is maintained. Pylon length can change the failure location because the center of the socket changes depending on pylon length.

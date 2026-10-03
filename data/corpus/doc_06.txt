@@ -1,8 +1,9 @@
-Title: 3D-printed upper limb prostheses: a review
-Source URL: https://jneuroengrehab.biomedcentral.com/
+Title: Investigation on three-dimensional printed prosthetics leg sockets coated with different reinforcement materials (Part 2)
+Source URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10958049/
 License: CC BY 4.0
-Date: 2016
+Date: 2024
 ----------------------------------------
 
-[Placeholder: Please download the full text of '3D-printed upper limb prostheses: a review' from https://jneuroengrehab.biomedcentral.com/ and paste it here.]
-Do not invent or hallucinate the content. Use the real document.
+According to researchers, the design and structural attributes of standard structural tests tailored for lower-limb prostheses, focusing on transtibial sockets align closely with the guidelines outlined in ISO 10328. This international standard establishes rigorous requirements and test methodologies to ensure the structural integrity and reliability of lower-limb prostheses, crucial for the safety and functionality of prosthetic users. The testing parameters prescribed in ISO 10328 aim to simulate real-world conditions comprehensively, incorporating varying orientations, forces, moments, and material characteristics. The study systematically evaluated prosthetic sockets to ascertain their mechanical properties and performance under simulated physiological conditions. 
+
+Central to the experimental methodology was the execution of static tests and ultimate strength assessments, pivotal for evaluating the sockets' structural integrity and safety margins. The application of failure force in this standard involves subjecting the sockets to escalating loads, with the primary objective of reaching an ultimate testing force of 4025 N. This testing protocol is designed to determine the structural limits of the sockets, simulating extreme forces encountered during dynamic activities or unanticipated events. This standardized approach not only ensures consistency and comparability across different studies but also provides valuable insights into the failure mechanisms, material limits, and design vulnerabilities. Such empirical data is essential for advancing prosthetic socket design and manufacturing practices, particularly in the context of emerging technologies like additive manufacturing, thereby contributing to the continual improvement of prosthetic devices tailored to meet the diverse needs of amputees.

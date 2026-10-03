@@ -1,8 +1,9 @@
-Title: Material data sheet for PETG filament in prosthetics
-Source URL: https://www.prusa3d.com/materials/
-License: Public Domain / Manufacturer Specs
-Date: 2023
+Title: Investigation on three-dimensional printed prosthetics leg sockets coated with different reinforcement materials (Part 3)
+Source URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10958049/
+License: CC BY 4.0
+Date: 2024
 ----------------------------------------
 
-[Placeholder: Please download the full text of 'Material data sheet for PETG filament in prosthetics' from https://www.prusa3d.com/materials/ and paste it here.]
-Do not invent or hallucinate the content. Use the real document.
+So far, research into the causes and solutions of prosthetic leg socket problems in additive manufacturing has primarily focused on aspects such as the fabrication method, design, printing parameters, and material selection—all of which are components of the pre-processing process. However, these methods still fail to address the significant challenges that arise post-printing: failures at the distal end of the socket and susceptibility to shear failure. Moreover, there has been little work to investigate the usefulness of the post-processing method in increasing the strength of the 3D-printed prosthetic leg socket. Hence, there is the possibility of emulating the strength-enhancing properties in post-processing steps using a wet layup approach to reinforce and improve the mechanical properties of 3D-printed prosthetics leg sockets. One of the methods for the reinforcement is surface coatings with various materials that could achieve specific visual and mechanical properties. According to Poornaganti et al. from their previous studies on the surface characterization on 3D printed model, they found that the additional reinforcement materials on the surface may improve properties such as dimensional accuracy, water absorption, surface texture and wettability. Another study by Vicente et al. found that protective coatings such as polyurethane (PU) wood sealant and acrylic aqueous varnish were the most effective materials in preventing water absorption to the 3D-printed parts thus may increase the mechanical properties up to 24% in respect to the specimen strength and ductility/toughness.
+
+Even though, some researchers have conducted many investigations on the surface coatings on the 3D-printed part, nevertheless, none of the previous studies very focus on the coating materials for the 3D-printed prosthetics leg socket, thus this made limitations on the understanding of mechanical properties and microstructural integrity of different reinforcement materials. Therefore, this study aimed to fabricate 3D-printed prosthetic leg sockets and reinforce them with reinforcement layer materials: carbon fiber, carbon-Kevlar fiber, fiberglass, and cement in which the mechanical properties and microstructural integrity were investigated further.

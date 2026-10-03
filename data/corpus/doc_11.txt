@@ -1,8 +1,9 @@
-Title: Thermal comfort and ventilation in prosthetic sockets
-Source URL: https://pubmed.ncbi.nlm.nih.gov/
-License: Open Access
-Date: 2019
+Title: Investigation on three-dimensional printed prosthetics leg sockets coated with different reinforcement materials (Part 7)
+Source URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10958049/
+License: CC BY 4.0
+Date: 2024
 ----------------------------------------
 
-[Placeholder: Please download the full text of 'Thermal comfort and ventilation in prosthetic sockets' from https://pubmed.ncbi.nlm.nih.gov/ and paste it here.]
-Do not invent or hallucinate the content. Use the real document.
+Evaluating stress–strain curves for various leg socket reinforcement materials reveals intriguing insights into their mechanical properties. Firstly, when considering carbon fiber reinforcement, it is worth noting that reported yield strength and Young’s modulus values from previous studies might not accurately represent the true potential of carbon fiber. The actual properties of carbon fiber could be significantly higher than reported, potentially influenced by experimental conditions and sample-specific factors. Nevertheless, previous study into carbon-fiber reinforced sockets using a PLA and carbon hybrid filament offers valuable insights. Their study demonstrated substantial improvements in longitudinal strength and toughness, with estimated tensile strength ranging from 72–79 MPa. Although their focus was on the pre-processing stage and employed a different reinforcement approach, it underscores the potential benefits of carbon fiber reinforcement for enhancing socket strength and overall durability.
+
+The SEM images revealed distinct features for each material, providing insights into their structure and interaction with the surrounding matrix. SEM analysis of carbon fiber showed a uniform surface, indicating a consistent fiber morphology. This uniformity contributes to carbon fiber-filled cement materials’ mechanical properties and electrical conductivity. The highest yield strength category is the carbon fiber and cement pair. These findings indicate that the reinforcement materials significantly impact the yield strength of the prosthetic leg sockets, with carbon and cement exhibiting the highest levels of strength.

@@ -1,8 +1,9 @@
-Title: Parametric modeling of prosthetic sockets using CAD software
-Source URL: https://www.mdpi.com/
+Title: Investigation on three-dimensional printed prosthetics leg sockets coated with different reinforcement materials (Part 10)
+Source URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10958049/
 License: CC BY 4.0
-Date: 2022
+Date: 2024
 ----------------------------------------
 
-[Placeholder: Please download the full text of 'Parametric modeling of prosthetic sockets using CAD software' from https://www.mdpi.com/ and paste it here.]
-Do not invent or hallucinate the content. Use the real document.
+Regarding cement as a reinforcement material for sockets, direct comparisons are challenging due to limited research in this area. However, a study focused on a concrete application revealed that combining PLA and cement can enhance its mechanical properties. While these studies address distinct fields, they aim to identify novel material combinations to improve strength and performance, offering valuable insights for future research and optimization.
+
+SEM analysis of the cement displays a uniform surface, likely due to its application as a sprayed material. This consistent surface uniformity enhances cement’s performance as a reinforcement material. For cement-reinforced sockets, the first two samples exhibit identical stress–strain curves. However, the third sample has a less steep slope, although it possesses higher stress than the first two sockets. The highest yield strength category is the carbon fiber and cement pair. These findings indicate that the reinforcement materials significantly impact the yield strength of the prosthetic leg sockets, with carbon and cement exhibiting the highest levels of strength.

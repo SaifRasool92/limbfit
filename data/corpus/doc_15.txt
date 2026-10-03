@@ -1,8 +1,11 @@
-Title: Biocompatibility of 3D printing materials for skin contact prostheses
-Source URL: https://www.ncbi.nlm.nih.gov/pmc/
+Title: Investigation on three-dimensional printed prosthetics leg sockets coated with different reinforcement materials (Part 11)
+Source URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10958049/
 License: CC BY 4.0
-Date: 2023
+Date: 2024
 ----------------------------------------
 
-[Placeholder: Please download the full text of 'Biocompatibility of 3D printing materials for skin contact prostheses' from https://www.ncbi.nlm.nih.gov/pmc/ and paste it here.]
-Do not invent or hallucinate the content. Use the real document.
+A comprehensive comparative analysis was undertaken to address the research questions posed in the preface, employing a combination of visual representations using bar charts, statistical tests such as One-Way ANOVA, and post hoc testing. These analytical methods were the foundation for assessing and contrasting the strength characteristics of the diverse reinforcement materials used in the prosthetic leg sockets.
+
+In summary, the comparative analysis highlighted significant differences in yield strength among the five socket reinforcements, as verified by statistical analysis F (4,10) = 11.572, p < 0.05. The subsequent post hoc testing unveiled clear distinctions among the different categories of sockets. Fiberglass, control, and carbon-Kevlar fiber emerged with the lowest yield strength values.
+
+Lastly, a previous study on conventional and 3D-printed PLA transtibial leg sockets raises intriguing questions regarding the control socket group. Their sockets exhibited higher ultimate strength, surpassing the values observed in our post-processed PLA+ sockets. This discrepancy is noteworthy because PLA+ is generally expected to be more durable than PLA. It suggests that our post-processing techniques, such as reinforcement and surface coatings, may not have yielded the exact extent of improvement in ultimate strength as observed in the conventional and 3D-printed PLA sockets. Understanding the specific factors contributing to this difference, such as fabrication techniques and testing conditions, warrants further investigation.

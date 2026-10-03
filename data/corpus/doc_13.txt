@@ -1,8 +1,9 @@
-Title: A guide to scanning and digitizing residual limbs for 3D printing
-Source URL: https://www.oandp.org/
-License: Open Access
-Date: 2021
+Title: Investigation on three-dimensional printed prosthetics leg sockets coated with different reinforcement materials (Part 9)
+Source URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10958049/
+License: CC BY 4.0
+Date: 2024
 ----------------------------------------
 
-[Placeholder: Please download the full text of 'A guide to scanning and digitizing residual limbs for 3D printing' from https://www.oandp.org/ and paste it here.]
-Do not invent or hallucinate the content. Use the real document.
+Similarly, the use of glass-reinforced filaments in socket fabrication was previously investigated. Like carbon fiber reinforcement, their study showed increased strength and toughness along the longitudinal direction, with a reported tensile strength of 59.5 MPa for their glass-reinforced sockets. Compared to our findings with fiberglass-reinforced sockets, these results appear relatively lower. However, it is essential to account for various experimental conditions, including sample preparation and testing protocols, as these variables can significantly impact reported mechanical properties.
+
+Fiberglass reinforcement with a somewhat rough appearance, suggesting the existence of surface irregularities and roughness. This roughness improves the bond between the fibers and the matrix, resulting in increased compressive strength in composite materials. The stress–strain curve for fiberglass reinforced sockets was evaluated. Like the previous reinforcement materials, the obtained yield strength and Young’s modulus were below the standard values. However, the samples exhibited similar behavior approaching the plastic region, indicating an equivalent level of socket quality within the group.

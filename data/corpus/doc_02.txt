@@ -1,8 +1,9 @@
-Title: WHO Standards for Prosthetics and Orthotics
-Source URL: https://www.who.int/publications/i/item/9789241512480
-License: CC BY-NC-SA 3.0 IGO
-Date: 2017
+Title: 3D printed transtibial prosthetic sockets: A systematic review (Part 2)
+Source URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9550041/
+License: CC BY 4.0
+Date: 2022
 ----------------------------------------
 
-[Placeholder: Please download the full text of 'WHO Standards for Prosthetics and Orthotics' from https://www.who.int/publications/i/item/9789241512480 and paste it here.]
-Do not invent or hallucinate the content. Use the real document.
+Thermoplastic and laminated composites are commonly used for fabricating traditional sockets and advances in these materials provide for exceptional strength-to-weight characteristics. However, traditional methods for fabricating laminated composite sockets (LCS) require costly infrastructure, considerable input from prosthetists, and long production times, which limits rapid implementation of modifications to the final product. An alternative technique to fabricate prosthetic sockets is 3D printing, or additive manufacturing. The use of 3D printing in medical applications is rapidly growing and it has become a robust tool for fabricating complicated objects in a timely manner. Rapid production of 3D printed sockets (3DS) may allow for less time between amputation and receipt of the first prosthesis or receipt of modified sockets following socket-related issues, which could collectively lead to better outcomes and limit any negative effects of socket disuse. Rapid production may also be relevant for managing patients with unstable limb volume who require many socket modifications. Moreover, the cost of a 3D printer and 3D printing filament materials is considerably lower than the costs associated with conventional manufacturing methods, making them a viable option for use in developing countries.
+
+Despite the potential benefits of using 3D printing technology in socket fabrication, the extent to which 3D-printing can provide sockets with ultimate forces that are appropriate for safe, long-term use is not entirely clear. Indeed, there are limited studies evaluating the use of 3DS in clinical practice, and those that do so have evaluated outcomes over fairly short time frames (2–6 weeks). There is a lack of research on the ultimate force and durability of 3DS, potentially making prosthetists less confident in their use, despite considerable technological advancements, e.g., stronger filaments with high toughness and stiffness, that should improve safety.

@@ -1,8 +1,9 @@
-Title: Open-source 3D-printed prosthetics: impact on developing countries
-Source URL: https://www.mdpi.com/journal/prosthesis
+Title: Investigation on three-dimensional printed prosthetics leg sockets coated with different reinforcement materials (Part 6)
+Source URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10958049/
 License: CC BY 4.0
-Date: 2021
+Date: 2024
 ----------------------------------------
 
-[Placeholder: Please download the full text of 'Open-source 3D-printed prosthetics: impact on developing countries' from https://www.mdpi.com/journal/prosthesis and paste it here.]
-Do not invent or hallucinate the content. Use the real document.
+For mechanical testing, a mock residual limb was fabricated to replicate the secure attachment of an amputated leg to the socket. The socket samples underwent axial compression testing using an Instron® 8874 Series universal testing machine, following the guidelines established for axial compression of FRP-confined concrete-core-encased rebar. The axial compression test involved applying a downward force to the socket at a 3 mm/min rate, simulating the load applied on the prosthetic device during the mid-stance position. As the testing progressed, the loading force reached a plateau, indicating that the machine could no longer compress the socket further. Testing concluded one minute after a constant reading was obtained for further analysis.
+
+SEM analysis was conducted on samples from each reinforced leg socket with different reinforcement materials. Firstly, the samples were sectioned into dimensions of 1 × 1 × 1cm and coated with a thin layer of gold for 20 min to enhance conductivity. Subsequently, SEM imaging was performed with a voltage of 15 kV using a Hitachi TM3000 Tabletop Scanning Electron Microscope machine at various magnifications: 50x, 250x, 500x, and 1.5kx for fiber specimens, and 1.5kx, 2.5kx, and 5kx for cement and control specimens. The obtained images were then processed using the built-in software to enhance resolution and clarity.

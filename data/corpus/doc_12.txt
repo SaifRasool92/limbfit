@@ -1,8 +1,10 @@
-Title: Tensile strength of FDM printed PLA and PETG for prosthetic use
-Source URL: https://europepmc.org/
+Title: Investigation on three-dimensional printed prosthetics leg sockets coated with different reinforcement materials (Part 8)
+Source URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10958049/
 License: CC BY 4.0
-Date: 2020
+Date: 2024
 ----------------------------------------
 
-[Placeholder: Please download the full text of 'Tensile strength of FDM printed PLA and PETG for prosthetic use' from https://europepmc.org/ and paste it here.]
-Do not invent or hallucinate the content. Use the real document.
+In contrast, another study explored prosthetic arm sockets, finding that carbon-Kevlar and carbon fibers, texalium, and polinet exhibited high strength, reaching 207.18 × 106 N/m2. When comparing these findings to those of carbon-Kevlar-reinforced leg sockets, a noticeable difference in yield strength is evident. This discrepancy prompts further investigation to understand the underlying reasons. 
+
+The carbon-Kevlar fiber showed a somewhat sparse distribution, indicating fluctuations in fiber density and dispersion. These sparse characteristics of carbon-Kevlar fibers can affect the mechanical properties and overall performance of composite materials.
+The stress–strain curve for three carbon-Kevlar fiber reinforced sockets samples exhibit variations among the three samples, suggesting unequal variance. It is important to note that while the obtained strength is lower than the standard strength, the results of the axial compression tests may not necessarily represent the typical or average properties of carbon-Kevlar fiber under different conditions.

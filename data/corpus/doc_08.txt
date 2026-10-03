@@ -1,8 +1,9 @@
-Title: ISPO Guidelines for Training Personnel in Prosthetics and Orthotics
-Source URL: https://www.ispoint.org/
-License: ISPO Copyright (Free to access)
-Date: 2018
+Title: Investigation on three-dimensional printed prosthetics leg sockets coated with different reinforcement materials (Part 4)
+Source URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10958049/
+License: CC BY 4.0
+Date: 2024
 ----------------------------------------
 
-[Placeholder: Please download the full text of 'ISPO Guidelines for Training Personnel in Prosthetics and Orthotics' from https://www.ispoint.org/ and paste it here.]
-Do not invent or hallucinate the content. Use the real document.
+Three post-processing steps were executed on all fifteen prosthetic leg sockets to enhance the aesthetic appearance and proper adhesion to the reinforcement layer materials. These steps comprised support removal, surface sanding for smoothing, and the application of epoxy resin as a surface treatment. The support brim of the 3D-printed socket was manually removed by hand. In cases where the support did not come out in one piece or if any remnants were left, pliers or tweezers were used to remove the remaining pieces. The support of the 3D-printed part has been cut with the cutter within the boundary of the desired prosthetics socket.
+
+The 3D-printed prosthetic leg sockets exhibited slightly rough surfaces near the edges and where the prints meet along the back socket circumference. To achieve a smoother finish, sanding process performed to even out the layer lines and rough edges to achieve a smoother finish. The process was executed using coarser grain size sandpapers (P400) first before gradually progressing to finer sizes (P600, P800, P1000), using circular motions to ensure an even smoothing of the surface and edges of the socket as suggested by previous study. Precautions were taken into consideration during this process, where this is important to avoid prolonged sanding in a single area, as this could generate heat or potentially alter the dimensions of the prototype. After sanding, the parts were carefully wiped down with a dry cloth to remove any remaining fine dust particles. They were then wiped down again with a thin layer of acetone to ensure a clean and smooth surface, effectively removing any lingering dust particles.

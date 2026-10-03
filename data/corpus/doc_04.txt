@@ -1,8 +1,11 @@
-Title: Design and biomechanical analysis of a 3D printed transradial prosthetic socket
-Source URL: https://europepmc.org/ (search for OA papers on transradial sockets)
-License: Open Access
-Date: 2020
+Title: 3D printed transtibial prosthetic sockets: A systematic review (Part 4)
+Source URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9550041/
+License: CC BY 4.0
+Date: 2022
 ----------------------------------------
 
-[Placeholder: Please download the full text of 'Design and biomechanical analysis of a 3D printed transradial prosthetic socket' from https://europepmc.org/ (search for OA papers on transradial sockets) and paste it here.]
-Do not invent or hallucinate the content. Use the real document.
+For all sockets, whether LCS or 3DS, failure mainly occurs at the distal end of the socket or the pyramid attachment. Four studies reported that the 3DS broke circumferentially with cracks initiating near the pin lock hole and propagating from the lateral to the medial side. In the study by Owen et al., medial cracking was also observed in 3DS, but four sockets failed at the pyramid attachment; the pyramid was either pulled out of the socket or broken.
+
+The failure mode in the LCS was found more in the pyramid attachment than at the distal end of the socket. Current et al. reported that six LCS had a complete failure at the pyramid attachment plate, resulting in the anterior edge of the pyramid attachment being pushed completely through the distal end of the sockets. Similarly, Graebner et al. and Pousett et al. observed that the pyramid was disconnected from the distal end of the socket. Failure at the distal end was also commonly found in LCS. Owen et al. reported that LCS failed at the anterior distal wall. In addition, several authors reported that pylon bending was observed in conjunction with socket failure for the LCS.
+
+We aimed to review the literature that tested the strength of lower extremity prosthetic sockets using the ISO 10328 standard in order to better understand how practices with 3DS impact strength, and the strength of 3DS relative to LCS. Although a recent review evaluated mechanical testing of prosthetic sockets, the prior review focused on strength testing methodology rather than on 3DS technology. A primary conclusion of that study was that ISO 10328 test standards are a reasonable reference for defining socket strength testing guidelines, which justifies our exclusion of studies that did not employ such a standard.
