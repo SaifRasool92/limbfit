@@ -14,6 +14,7 @@ from app.vision.core import calibrate, segment_limb, extract_profile, combine_vi
 from app.geometry.core import build_limb_mesh, build_socket, export_stl, export_glb, SocketParams, CrossSection
 from app.checks import run_checks
 from app.marker_pdf import generate_aruco_marker_pdf
+from app.rag import explain
 
 app = FastAPI(
     title="LimbFit AI Backend",
@@ -192,3 +193,18 @@ def regenerate(req: RegenerateRequest):
             "geometry": (t_end - t_start) * 1000
         }
     }
+
+class ExplainRequest(BaseModel):
+    measurements: dict
+    params: dict
+    checks: dict
+    use_rag: bool = True
+
+@app.post("/api/explain")
+def explain_endpoint(req: ExplainRequest):
+    try:
+        explanation = explain(req.measurements, req.params, req.checks, use_rag=req.use_rag)
+        return explanation
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+

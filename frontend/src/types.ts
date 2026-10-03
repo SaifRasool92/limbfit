@@ -26,9 +26,22 @@ export interface AnalyzeResult {
   sections: CrossSection[];
   socket_glb_url: string;
   socket_stl_url: string;
-  debug_overlay_urls: string[];
+  debug_overlay_urls?: string[];
   checks: Checks;
   timings_ms: Record<string, number>;
+}
+
+export interface RAGSource {
+  source: string;
+  page: number;
+  text: string;
+}
+
+export interface ExplainResult {
+  rationale: string;
+  checklist: string[];
+  print_guide: string;
+  rag_sources?: RAGSource[];
 }
 
 export const DEFAULT_PARAMS: SocketParams = {

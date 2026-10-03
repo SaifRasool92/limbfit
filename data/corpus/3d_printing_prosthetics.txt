@@ -1,0 +1,112 @@
+3D Printing for Prosthetics — Technical Reference
+===================================================
+
+1. Printer Selection for Clinic Use
+-------------------------------------
+For a rural prosthetics clinic, a desktop FDM (Fused Deposition Modeling) printer is the most practical and cost-effective choice. Recommended printers with reliable spare parts availability in Pakistan:
+
+- Creality Ender 3 (or Pro/V2/S1): Widely available, large print community, spare parts in Lahore and Karachi. Build volume: 220x220x250 mm. Sufficient for most transradial sockets.
+- Bambu Lab A1 Mini: Faster print speed, good reliability but higher initial cost.
+- Prusa MK4: Excellent quality but may be difficult to source parts locally.
+
+Minimum build volume for a transradial socket: 180 mm diameter x 150 mm height. Most Ender 3 variants meet this requirement.
+
+2. Slicing Software
+--------------------
+Use free slicing software to prepare STL files for printing:
+
+- Ultimaker Cura (recommended): Free, supports Creality printers, good profile management.
+- Bambu Studio: For Bambu printers.
+- PrusaSlicer: Excellent quality, recommended for clinical use.
+
+Key slicer settings for prosthetic sockets:
+  - Enable "Fuzzy Skin" on the outer surface for grip texture (optional).
+  - Use "Variable Layer Height" — finer layers (0.1 mm) at the proximal brim for anatomical accuracy.
+  - Enable "Ironing" on the top surface for a smooth trim line finish.
+  - Set "Z-seam Alignment" to "Rear" to keep the seam on the posterior surface (less visible).
+
+3. Print Orientation
+---------------------
+Socket orientation on the print bed is critical for structural strength:
+
+CORRECT: Print the socket upright (distal end facing up, proximal opening on the bed). This aligns the layer lines perpendicular to the compressive loads during use.
+
+INCORRECT: Printing the socket on its side creates layers parallel to the socket wall, causing catastrophic delamination under load.
+
+Always inspect the first layer adhesion before leaving the printer unattended. A failed first layer wastes 8–12 hours of print time.
+
+4. Support Structures
+----------------------
+Transradial sockets have complex interior geometry that may require supports:
+
+- Use "Tree Supports" at 45-degree angle threshold.
+- Support interface distance: 0.2 mm for easy removal without damaging socket interior.
+- After printing, remove all support material from the interior of the socket using pliers and a heat gun.
+- Sand all areas where supports contacted the socket surface.
+
+5. Material Safety and Biocompatibility
+-----------------------------------------
+Not all 3D printing filaments are safe for prolonged skin contact:
+
+- PETG: Considered skin-safe for external prosthetic applications when printed cleanly. Approved for use as socket material.
+- PLA: Generally safe but contains additives that may cause irritation in some individuals. Avoid if patient has known polymer sensitivity.
+- ABS: Not recommended. Releases styrene vapors during printing. Poor layer adhesion and warping in humid environments like Punjab.
+- TPU (flexible): Safe for liner applications. Shore hardness 95A is standard for prosthetic liners.
+
+Always print in a ventilated space. Install a HEPA filter enclosure on the printer if available.
+
+6. Post-Processing Steps
+--------------------------
+After printing a socket, follow these steps before fitting:
+
+Step 1 – Inspection:
+  - Check all layer lines for delamination (visible gaps between layers).
+  - Use a strong flashlight held at a tangent angle to the surface to reveal defects.
+  - Reject any socket with visible delamination. Do not attempt to repair with glue.
+
+Step 2 – Sanding:
+  - Inner surface: Sand with 120 grit (rough), then 220 grit, then 400 grit.
+  - Outer surface: Sand with 220 grit only for cosmetic finish.
+  - Wear N95 mask during sanding to avoid inhaling fine plastic dust.
+
+Step 3 – Edge Finishing:
+  - Trim proximal and distal edges with a Dremel rotary tool or sharp knife.
+  - Smooth all edges with a heat gun at low setting to remove sharp burrs.
+  - A sharp socket edge will lacerate skin. Do not skip this step.
+
+Step 4 – Test Fitting:
+  - Check socket on a solid model or foam replica of the residual limb (same circumference) before patient fitting.
+  - Socket should slide onto model with moderate hand pressure but not fall off under gravity.
+
+7. Failure Modes and Troubleshooting
+---------------------------------------
+Common 3D-printed socket failures and their causes:
+
+| Failure | Cause | Prevention |
+|---|---|---|
+| Layer delamination | Low print temperature, high cooling, wet filament | Dry filament 4h at 65°C, increase temp by 5°C |
+| Warping | Poor bed adhesion | Use PEI bed, brim, bed at 80°C |
+| Stringing | Too high print temperature | Reduce by 5°C, enable retraction |
+| Under-extrusion | Partial nozzle clog | Cold pull cleaning |
+| Socket cracks at trim line | Stress concentration, too thin wall | Increase perimeters, add fillet at trim line |
+
+8. Filament Storage
+--------------------
+PETG absorbs moisture from humid air (Punjab's humidity can reach 80%+). Moist filament causes:
+  - Bubbling and popping during printing
+  - Poor layer adhesion
+  - Rough surface finish
+  - Reduced tensile strength
+
+Store filament in sealed containers with silica gel desiccant. Before using a new roll, dry PETG in an oven at 65°C for 4 hours. Do not exceed 70°C or the filament will soften in the tube.
+
+9. Maintenance Schedule for Clinic Printer
+--------------------------------------------
+A prosthetics clinic printer must be maintained regularly to ensure dimensional accuracy:
+
+- Weekly: Level the print bed using a 0.1 mm feeler gauge or auto-leveling routine.
+- Monthly: Clean the nozzle with a cold pull (nylon filament at 90°C). Lubricate Z-axis lead screw with PTFE grease.
+- Quarterly: Replace the nozzle (brass nozzle wears with abrasive filaments). Check belt tension.
+- Annually: Replace the print bed surface and Bowden tube (if applicable).
+
+Dimensional accuracy requirement for prosthetic sockets: ±0.5 mm. Validate by printing a 50x50x10 mm calibration cube before each socket print.

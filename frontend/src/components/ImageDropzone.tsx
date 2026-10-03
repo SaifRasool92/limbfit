@@ -97,7 +97,7 @@ export function ImageDropzone({ label, id, onFile, file, lang }: DropzoneProps) 
             </button>
             <div className="absolute bottom-2 left-0 right-0 text-center">
               <span className="text-xs text-white/60 bg-black/40 px-2 py-0.5 rounded-full">
-                {file.name} ({(file.size / 1024).toFixed(0)} KB)
+                {file?.name} ({file?.size ? (file.size / 1024).toFixed(0) : 0} KB)
               </span>
             </div>
           </div>

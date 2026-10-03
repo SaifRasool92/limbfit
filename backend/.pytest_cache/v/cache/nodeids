@@ -1,0 +1,8 @@
+[
+  "tests/test_geometry.py::test_build_limb_and_socket",
+  "tests/test_main.py::test_health_check",
+  "tests/test_vision.py::test_calibrate",
+  "tests/test_vision.py::test_combine_views",
+  "tests/test_vision.py::test_extract_profile",
+  "tests/test_vision.py::test_manual_override"
+]

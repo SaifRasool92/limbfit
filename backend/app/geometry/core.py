@@ -84,9 +84,16 @@ def build_socket(limb_mesh: trimesh.Trimesh, params: SocketParams) -> trimesh.Tr
     
     try:
         import manifold3d
-        # Use manifold3d directly for robust CSG booleans
-        m_inner = manifold3d.Manifold(inner_mesh.vertices, inner_mesh.faces)
-        m_outer = manifold3d.Manifold(outer_mesh.vertices, outer_mesh.faces)
+        # manifold3d requires a Mesh object, not raw arrays
+        def to_manifold(tm: trimesh.Trimesh):
+            mesh_obj = manifold3d.Mesh(
+                vert_properties=tm.vertices.astype('float32'),
+                tri_verts=tm.faces.astype('uint32')
+            )
+            return manifold3d.Manifold(mesh_obj)
+        
+        m_inner = to_manifold(inner_mesh)
+        m_outer = to_manifold(outer_mesh)
         m_socket = m_outer - m_inner
         
         # Trim top
@@ -94,20 +101,20 @@ def build_socket(limb_mesh: trimesh.Trimesh, params: SocketParams) -> trimesh.Tr
         cut_z = z_max - params.trim_height_mm
         box = trimesh.creation.box(extents=[1000, 1000, 200])
         box.apply_translation([0, 0, cut_z + 100])
-        m_box = manifold3d.Manifold(box.vertices, box.faces)
+        m_box = to_manifold(box)
         m_socket = m_socket - m_box
         
         # Distal mount plate
         z_min = inner_mesh.vertices[:, 2].min()
         plate = trimesh.creation.box(extents=[50, 50, params.wall_mm])
         plate.apply_translation([0, 0, z_min - (params.wall_mm / 2)])
-        m_plate = manifold3d.Manifold(plate.vertices, plate.faces)
+        m_plate = to_manifold(plate)
         m_socket = m_socket + m_plate
         
         # Bolt hole
         hole = trimesh.creation.cylinder(radius=params.hole_diameter_mm / 2, height=50)
         hole.apply_translation([0, 0, z_min])
-        m_hole = manifold3d.Manifold(hole.vertices, hole.faces)
+        m_hole = to_manifold(hole)
         m_socket = m_socket - m_hole
         
         mesh_data = m_socket.to_mesh()

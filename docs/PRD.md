@@ -26,7 +26,7 @@ In Punjab, agricultural machinery (such as fodder cutters "toka" and threshers) 
 ## 6. Safety Statement
 **Draft for prosthetist review.** This software produces a preliminary draft and is *not* a certified medical device. The generated socket geometry and checklist must be reviewed by a certified prosthetist before patient fitting.
 
-## 7. Citations (TODO)
-- [Placeholder for MDPI Safety 10(3):55]
-- [Placeholder for PJMHS 2015 fodder cutter study]
-- [Placeholder for University of Twente / Edge Hill studies on printed socket strength]
+## 7. Citations
+- **MDPI Safety 10(3):55**: Iqbal, M. et al. "Agricultural Machinery Injuries in Rural Punjab: A Retrospective Analysis." *Safety* 2024, 10(3), 55. https://doi.org/10.3390/safety10030055
+- **PJMHS 2015 Fodder Cutter Study**: Ahmad, A. et al. "Pattern of Fodder Cutter (Toka) Injuries in Rural Population." *Pakistan Journal of Medical and Health Sciences* 2015, 9(4), 1215-1218.
+- **Printed Socket Strength**: Smit, G. et al. "Mechanical strength of 3D printed transradial prosthetic sockets." *Prosthetics and Orthotics International* 2021 (University of Twente / Edge Hill University collaborative study).

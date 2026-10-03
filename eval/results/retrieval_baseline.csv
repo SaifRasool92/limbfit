@@ -1,0 +1,2 @@
+model,recall@1,recall@3,recall@5,mrr
+chroma-default,0.3333,0.5000,1.0000,0.5167

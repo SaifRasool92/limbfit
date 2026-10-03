@@ -27,7 +27,7 @@ export function ChecksPanel({ checks, lang }: ChecksPanelProps) {
     },
     {
       label: t.cost,
-      value: `$${checks.cost_estimate.toFixed(2)}`,
+      value: `Rs ${checks.cost_estimate.toFixed(0)}`,
       ok: true,
       icon: '💰',
     },

@@ -14,7 +14,7 @@ def run_checks(mesh: trimesh.Trimesh, params: dict):
     grams = volume_cm3 * pla_density
     
     # Cost
-    price_per_kg = 20.0 # TODO: Fill with local price in Punjab
+    price_per_kg = 4500.0 # Approximate local price for PLA/PETG in Punjab (PKR)
     cost = (grams / 1000.0) * price_per_kg
     
     # Max overhang angle

@@ -1,0 +1,5 @@
+case_id,description,n_sections,mean_circ_error_mm,max_circ_error_mm,generation_time_ms,passes_5s_target
+case_01_short_limb,"Short residual limb, 80mm, uniform taper",5,0.0,0.0,107.6,True
+case_02_medium_limb,"Medium residual limb, 130mm, irregular taper",6,0.0,0.0,28.9,True
+case_03_long_limb,"Long residual limb, 180mm, near-cylindrical",6,0.0,0.0,27.9,True
+case_04_manual_input,Manually entered circumferences (simulates manual_override path),4,0.0,0.0,27.6,True
