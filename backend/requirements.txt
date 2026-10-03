@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+numpy
+opencv-python-headless
+opencv-contrib-python-headless
+rembg
+trimesh
+manifold3d
+scipy
+shapely
+pytest
+chromadb
+sentence-transformers
+python-multipart
