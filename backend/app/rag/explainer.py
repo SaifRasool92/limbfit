@@ -31,8 +31,12 @@ def explain(measurements: dict, params: dict, checks: dict, use_rag: bool = True
     context_chunks = []
     if use_rag:
         query = (
-            f"transradial socket design, wall thickness {params.get('wall_mm')}mm, "
-            f"relief {params.get('relief_pct')}%, 3D printing PLA PETG"
+            f"transradial socket guidance: "
+            f"wall thickness {params.get('wall_mm')} mm, "
+            f"relief {params.get('relief_pct')}%, "
+            f"material PETG, "
+            f"watertight mesh {checks.get('is_watertight', True)}, "
+            f"prosthetist review required"
         )
         context_chunks = retrieve(query, k=5)
 

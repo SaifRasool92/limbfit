@@ -419,7 +419,12 @@ export default function Home() {
                     )}
 
                     {activeTab === 'rationale' && (
-                      <RationalePanel explain={explainResult} loading={loadingExplain} lang={lang} />
+                      <RationalePanel 
+                        explain={explainResult} 
+                        loading={loadingExplain} 
+                        lang={lang} 
+                        onRetry={() => result && fetchExplanation(result, params)}
+                      />
                     )}
 
                     {activeTab === 'slices' && (

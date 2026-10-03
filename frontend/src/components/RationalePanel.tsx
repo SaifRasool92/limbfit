@@ -8,9 +8,10 @@ interface RationalePanelProps {
   explain: ExplainResult | null;
   loading: boolean;
   lang: Lang;
+  onRetry?: () => void;
 }
 
-export function RationalePanel({ explain, loading, lang }: RationalePanelProps) {
+export function RationalePanel({ explain, loading, lang, onRetry }: RationalePanelProps) {
   const t = i18n[lang];
   const [checkedItems, setCheckedItems] = useState<Record<number, boolean>>({});
 
@@ -30,8 +31,13 @@ export function RationalePanel({ explain, loading, lang }: RationalePanelProps) 
 
   if (!explain) {
     return (
-      <div className="p-8 text-center text-zinc-500 text-sm">
-        No clinical rationale generated yet.
+      <div className="flex flex-col items-center justify-center p-8 text-center space-y-4">
+        <p className="text-zinc-500 text-sm">No clinical rationale generated yet.</p>
+        {onRetry && (
+          <button onClick={onRetry} className="btn-secondary text-xs">
+            Retry Generation
+          </button>
+        )}
       </div>
     );
   }
@@ -132,6 +138,11 @@ export function RationalePanel({ explain, loading, lang }: RationalePanelProps) 
           <p className="text-amber-200/70 text-xs">
             No source-backed clinical guidance was retrieved for these specific parameters. The rationale provided is a deterministic engineering fallback and requires manual prosthetist review.
           </p>
+          {onRetry && (
+            <button onClick={onRetry} className="mt-2 px-3 py-1.5 bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 text-xs rounded-lg transition-colors border border-amber-500/30">
+              Retry RAG Retrieval
+            </button>
+          )}
         </div>
       )}
     </div>
