@@ -1,0 +1,8 @@
+Title: Material data sheet for PETG filament in prosthetics
+Source URL: https://www.prusa3d.com/materials/
+License: Public Domain / Manufacturer Specs
+Date: 2023
+----------------------------------------
+
+[Placeholder: Please download the full text of 'Material data sheet for PETG filament in prosthetics' from https://www.prusa3d.com/materials/ and paste it here.]
+Do not invent or hallucinate the content. Use the real document.
