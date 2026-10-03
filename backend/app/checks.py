@@ -9,9 +9,9 @@ def run_checks(mesh: trimesh.Trimesh, params: dict):
     volume_cm3 = mesh.volume / 1000.0 if mesh.volume else 0.0
     
     # Filament weight
-    pla_density = 1.24 # g/cm3
+    petg_density = 1.27 # g/cm3
     # Sockets are thin-walled, assume mostly solid (100% infill for walls)
-    grams = volume_cm3 * pla_density
+    grams = volume_cm3 * petg_density
     
     # Cost
     price_per_kg = 4500.0 # Approximate local price for PLA/PETG in Punjab (PKR)
@@ -33,5 +33,5 @@ def run_checks(mesh: trimesh.Trimesh, params: dict):
         "weight_grams": round(float(grams), 2),
         "cost_estimate": round(float(cost), 2),
         "max_overhang_deg": round(max_overhang, 1),
-        "min_wall_mm": params.get('wall_mm', 3.5)
+        "requested_wall_mm": params.get('wall_mm', 3.5)
     }

@@ -80,18 +80,23 @@ Return ONLY valid JSON, no markdown fences."""
 
     wall = params.get("wall_mm", 3.5)
     relief = params.get("relief_pct", 2.5)
-    vents = params.get("vents", params.get("vent_count", 4))
     
-    cite_str = " ".join(citations[:2]) if citations else "[Source: ISO_10328_Transradial.pdf, Page: 4]"
+    if citations:
+        cite_str = " ".join(citations[:2])
+        rationale_text = (
+            f"The transradial socket draft specifies a requested wall thickness of {wall}mm and volumetric reduction of {relief}%. "
+            f"Based on retrieved context {cite_str}, this is a preliminary engineering suggestion. "
+            f"The selected wall thickness is a configurable prototype parameter. Mechanical suitability has not been clinically or experimentally validated."
+        )
+    else:
+        rationale_text = (
+            f"The transradial socket draft specifies a requested wall thickness of {wall}mm and volumetric reduction of {relief}%. "
+            f"No source-backed guidance was retrieved. This is a preliminary engineering suggestion and requires prosthetist review. "
+            f"The selected wall thickness is a configurable prototype parameter. Mechanical suitability has not been clinically or experimentally validated."
+        )
 
     return {
-        "rationale": (
-            f"The transradial socket draft specifies a wall thickness of {wall}mm and compression relief of {relief}%. "
-            f"Per clinical standards {cite_str}, wall thickness between 3.0mm and 4.0mm ensures structural durability "
-            f"under standard prosthetic loading conditions (ISO 10328) while avoiding unnecessary distal mass. "
-            f"The {relief}% volumetric reduction provides optimal total contact without causing localized soft tissue compression. "
-            f"The addition of {vents} ventilation ports enhances thermal regulation and reduces sweat accumulation."
-        ),
+        "rationale": rationale_text,
         "checklist": [
             "Verify total limb length match (within ±2.0mm of anatomical measure).",
             "Perform static weight-bearing test on distal epicondyles.",

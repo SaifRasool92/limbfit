@@ -1,5 +1,5 @@
 """
-Phase 7: Reconstruction Accuracy Evaluation Harness
+Phase 7: Synthetic Geometry Reconstruction Consistency Harness
 
 Measures mean circumference error (mm) between the geometry pipeline's output
 and synthetic ground-truth cross-sections, as required by the PRD success metrics.
@@ -164,7 +164,7 @@ def main():
         "generation_time_ms", "passes_5s_target"
     ]
 
-    print("Phase 7 — Reconstruction Accuracy & Timing Harness")
+    print("Phase 7 — Synthetic Geometry Reconstruction Consistency Harness")
     print("=" * 55)
 
     rows = []

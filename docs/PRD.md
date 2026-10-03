@@ -13,7 +13,8 @@ In Punjab, agricultural machinery (such as fodder cutters "toka" and threshers) 
 4. **Review & Output:** The system outputs an STL file for 3D printing and provides a cited checklist of clinical design rationale and fit guidance (bilingual: English/Urdu) for prosthetist review.
 
 ## 4. Success Metrics
-- **Reconstruction Accuracy:** Mean circumference error (in mm) compared to ground truth tape measurements.
+- **Synthetic Geometry Reconstruction Consistency:** Mean circumference error (in mm) compared to target geometry.
+- **Real Image Measurement Accuracy:** Mean measurement error (in mm) compared to ground truth tape measurements (requires manual test set).
 - **Retrieval Quality:** Recall@5 (before and after fine-tuning the embedder on domain questions).
 - **Generation Time:** End-to-end socket generation time (target: < 5 seconds).
 - **Cost:** Estimated material cost per socket based on filament usage.

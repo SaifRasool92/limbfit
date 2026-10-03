@@ -442,7 +442,6 @@ export default function Home() {
                     {[
                       { key: 'wall_mm' as const, label: t.wallThickness, min: 2.0, max: 6.0, step: 0.5, unit: 'mm' },
                       { key: 'relief_pct' as const, label: t.relief, min: 0.0, max: 5.0, step: 0.5, unit: '%' },
-                      { key: 'vent_count' as const, label: t.vents, min: 0, max: 12, step: 1, unit: 'ports' },
                       { key: 'trim_height_mm' as const, label: t.trimHeight, min: 5, max: 30, step: 1, unit: 'mm' },
                     ].map(({ key, label, min, max, step: stepVal, unit }) => (
                       <div key={key} className="space-y-2">
@@ -470,7 +469,7 @@ export default function Home() {
                 <div className="card p-5 space-y-4">
                   <div className="flex items-center justify-between border-b border-zinc-800 pb-3">
                     <h3 className="font-semibold text-white text-sm">{t.checks}</h3>
-                    <span className="tag text-xs font-mono">ISO 10328</span>
+                    <span className="tag text-xs font-mono">Preliminary</span>
                   </div>
                   <ChecksPanel checks={result.checks} lang={lang} />
                 </div>

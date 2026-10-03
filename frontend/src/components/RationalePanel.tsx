@@ -45,7 +45,7 @@ export function RationalePanel({ explain, loading, lang }: RationalePanelProps) 
             <span className="w-2 h-2 rounded-full bg-blue-500" />
             <h3 className="font-semibold text-zinc-100 text-sm">Clinical & Engineering Rationale</h3>
           </div>
-          <span className="tag font-mono text-xs">ISO 10328 Verified</span>
+          <span className="tag font-mono text-xs">Geometry Checks Passed</span>
         </div>
         <p className="text-zinc-300 text-xs leading-relaxed bg-zinc-900/60 p-4 rounded-xl border border-zinc-800/80 font-normal">
           {explain.rationale}
@@ -67,7 +67,6 @@ export function RationalePanel({ explain, loading, lang }: RationalePanelProps) 
           {explain.checklist.map((item, idx) => (
             <label
               key={idx}
-              onClick={() => toggleCheck(idx)}
               className={`flex items-start gap-3 p-3 rounded-xl border transition-all cursor-pointer ${
                 checkedItems[idx]
                   ? 'bg-emerald-500/10 border-emerald-500/30 text-emerald-300'
@@ -77,7 +76,7 @@ export function RationalePanel({ explain, loading, lang }: RationalePanelProps) 
               <input
                 type="checkbox"
                 checked={!!checkedItems[idx]}
-                onChange={() => {}}
+                onChange={() => toggleCheck(idx)}
                 className="mt-0.5 rounded border-zinc-700 bg-zinc-800 text-emerald-500 focus:ring-0"
               />
               <span className="text-xs leading-relaxed">{item}</span>
@@ -98,14 +97,14 @@ export function RationalePanel({ explain, loading, lang }: RationalePanelProps) 
       </div>
 
       {/* RAG Knowledge Base Sources */}
-      {explain.rag_sources && explain.rag_sources.length > 0 && (
+      {explain.rag_sources && explain.rag_sources.length > 0 ? (
         <div className="card p-5 space-y-3">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <span className="w-2 h-2 rounded-full bg-purple-500" />
               <h3 className="font-semibold text-zinc-100 text-sm">{t.ragSources}</h3>
             </div>
-            <span className="tag text-xs font-mono">ChromaDB Vector Store</span>
+            <span className="tag text-xs font-mono">{explain.rag_sources.length} sources retrieved</span>
           </div>
           <div className="space-y-2">
             {explain.rag_sources.map((src, i) => (
@@ -120,6 +119,19 @@ export function RationalePanel({ explain, loading, lang }: RationalePanelProps) 
               </div>
             ))}
           </div>
+        </div>
+      ) : (
+        <div className="card p-5 space-y-3 border-amber-500/30 bg-amber-500/5">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-amber-500" />
+              <h3 className="font-semibold text-amber-200 text-sm">RAG Retrieval Status</h3>
+            </div>
+            <span className="tag text-xs font-mono text-amber-400 bg-amber-500/10">Fallback Mode</span>
+          </div>
+          <p className="text-amber-200/70 text-xs">
+            No source-backed clinical guidance was retrieved for these specific parameters. The rationale provided is a deterministic engineering fallback and requires manual prosthetist review.
+          </p>
         </div>
       )}
     </div>

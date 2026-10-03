@@ -19,7 +19,7 @@ export interface Checks {
   weight_grams: number;
   cost_estimate: number;
   max_overhang_deg: number;
-  min_wall_mm: number;
+  requested_wall_mm: number;
 }
 
 export interface AnalyzeResult {
