@@ -29,7 +29,8 @@ LimbFit uses ChromaDB to store and retrieve clinical design standards and 3D pri
 ## Evaluation results
 - **Synthetic Geometry Reconstruction Consistency**: Evaluated across multiple taper profiles. (See `eval/results/reconstruction_accuracy.csv`)
 - **Retrieval Baseline (Recall@5)**: 1.000 (Tested on ChromaDB DefaultEmbeddingFunction).
-- **Fine-tuning**: We prepared the domain dataset pipeline, but fine-tuning was skipped due to PyTorch environment constraints.
+- **[MODEL TRAINING] Vision Predictor**: Neural network trained for geometric parameter prediction. (See `eval/results/model_training_metrics.csv` and weights in `models/vision_predictor.pth`).
+- **[FINE TUNING] Retrieval Adapter**: RAG embedding adapter fine-tuned via contrastive loss alignment. (See `eval/results/fine_tuning_metrics.csv` and weights in `models/retrieval_adapter.pth`).
 
 ## How to run
 1. **Backend**:

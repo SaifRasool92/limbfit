@@ -25,7 +25,11 @@ def _call_llm(prompt: str, api_key: str) -> str:
 
 
 def explain(measurements: dict, params: dict, checks: dict, use_rag: bool = True):
-    """Generate a cited design rationale, checklist, and print guide via OpenRouter."""
+    """
+    [RAG IMPLEMENTATION]
+    Generate a cited design rationale, checklist, and print guide via OpenRouter LLM.
+    Uses Retrieval-Augmented Generation (RAG) by retrieving context from ChromaDB.
+    """
     from app.rag.retriever import retrieve
 
     context_chunks = []

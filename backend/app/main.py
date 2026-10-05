@@ -202,6 +202,11 @@ class ExplainRequest(BaseModel):
 
 @app.post("/api/explain")
 def explain_endpoint(req: ExplainRequest):
+    """
+    [RAG IMPLEMENTATION]
+    Executes the Retrieval-Augmented Generation (RAG) pipeline to provide
+    context-aware clinical rationale and printing guides.
+    """
     try:
         explanation = explain(req.measurements, req.params, req.checks, use_rag=req.use_rag)
         return explanation

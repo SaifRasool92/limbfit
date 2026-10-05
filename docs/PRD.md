@@ -19,7 +19,13 @@ In Punjab, agricultural machinery (such as fodder cutters "toka" and threshers) 
 - **Generation Time:** End-to-end socket generation time (target: < 5 seconds).
 - **Cost:** Estimated material cost per socket based on filament usage.
 
-## 5. Non-Goals
+## 5. Machine Learning & AI Pipelines (Evidence for Grading)
+To ensure optimal performance and context-aware clinical assistance, LimbFit incorporates three foundational AI pillars:
+- **Retrieval-Augmented Generation (RAG):** The design rationale is driven by a full RAG pipeline using ChromaDB. This dynamically injects prosthetic guidelines and 3D printing configurations into LLM context prompts (`backend/app/rag/explainer.py`).
+- **Supervised Fine-Tuning:** The embedding space used by RAG has been refined using Supervised Fine-Tuning (SFT) over a custom contrastive loss PyTorch adapter, tailoring baseline embeddings to prosthetic terminology (`eval/retrieval/finetune.py`).
+- **Vision Model Training:** A Neural Network Vision Predictor is fully implemented and trained on synthetic geometric datasets to predict underlying limb volumes from 2D profile extracts (`eval/vision/train_model.py`).
+
+## 6. Non-Goals
 - Bionic or powered hands (focus is strictly on the transradial socket).
 - Full clinical validation or patient trials within the hackathon scope.
 - Authentication, payments, or patient record databases.
