@@ -1,8 +1,16 @@
 # LimbFit AI
 <img width="1462" height="867" alt="image" src="https://github.com/user-attachments/assets/27b9ecc7-f078-4c6e-8c0f-10fbd7d1ad69" />
 <img width="1227" height="815" alt="image" src="https://github.com/user-attachments/assets/3d9bfdf8-5866-46d5-b59c-bd7517731c86" />
-<img width="400" height="341" alt="image" src="https://github.com/user-attachments/assets/95747d6d-4690-4b60-b4ce-ab8d2d39b1a9" />
-<img width="520" height="341" alt="image" src="https://github.com/user-attachments/assets/e575b8c1-28e9-483c-9b4e-6406f90f9947" />
+
+
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/d1b97b42-af01-43a6-a697-b246677025af" width="100%"></td>
+    <td><img src="https://github.com/user-attachments/assets/8d891390-4f3d-4ef9-a2da-f75ed6ebe3a2" width="100%"></td>
+  </tr>
+</table>
+
+
 
 
 
