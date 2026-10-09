@@ -12369,6 +12369,7 @@ limbfit/
 
 ## 👥 Team
 
+<div align="center">
 <table>
   <tr>
     <td align="center" width="25%">
@@ -12393,6 +12394,8 @@ limbfit/
     </td>
   </tr>
 </table>
+
+</div>
 
 ## 📜 License
 
