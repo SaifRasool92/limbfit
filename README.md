@@ -12373,12 +12373,12 @@ limbfit/
   <tr>
     <td align="center" width="25%">
       <b>Saif Ur Rasool</b><br>
-      <sub>Backend & CV</sub><br>
+      <sub>Core developer</sub><br>
       <a href="https://www.linkedin.com/in/saif-ur-rasool">LinkedIn</a> · <a href="https://github.com/SaifRasool92">GitHub</a>
     </td>
     <td align="center" width="25%">
       <b>Zia Ur Rehman</b><br>
-      <sub>Deploy & Fine-Tune</sub><br>
+      <sub>Project contributor</sub><br>
       <a href="https://www.linkedin.com/in/zia-ur-rehman143/">LinkedIn</a> · <a href="https://github.com/Meharzain1020">GitHub</a>
     </td>
     <td align="center" width="25%">
@@ -12388,7 +12388,7 @@ limbfit/
     </td>
     <td align="center" width="25%">
       <b>Afeefa Batool</b><br>
-      <sub>Planning & Research</sub><br>
+      <sub>AI Integration</sub><br>
       <a href="https://www.linkedin.com/in/afeefa-batool">LinkedIn</a> · <a href="https://github.com/Afeefa-Batool">GitHub</a>
     </td>
   </tr>
