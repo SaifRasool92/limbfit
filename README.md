@@ -68,7 +68,8 @@ LimbFit uses ChromaDB to store and retrieve clinical design standards and 3D pri
 - **Accuracy**: Real-world camera measurement accuracy requires further validation.
 
 ## Safety
-**Draft for prosthetist review.** This software produces a preliminary engineering draft and is *not* a certified medical device. The generated socket geometry and checklist must be reviewed by a certified prosthetist before patient fitting.
+**Draft for prosthetist review.** This software produces a preliminary engineering draft and is *not* a certified medical device. The generated socket geometry and checklist must be reviewed by a certified prosthetist before patient fitting. **Patient safety and clinical responsibility must always take precedence over software-generated outputs.**
+
 
 ## Known stubs
 - `stub_vent_geometry`: Vent parameters are hidden as boolean subtraction is unreliable without further optimization.
