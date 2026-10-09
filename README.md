@@ -1,13 +1,18 @@
 <div align="center">
 
-# 🦾 LimbFit AI
+	
+# <img src="https://github.com/user-attachments/assets/24de0c8c-b929-4146-961b-64ca2aca460a" width="40" height="40" alt="icon"> LimbFit AI
+
+
+
+
 
 ### From two phone photos to a 3D-printable prosthetic socket draft, with a cited clinical checklist
 
 *AI-assisted parametric socket design for rural technicians to support in Real World.*
 
 
-[🎥 Demo video](https://www.youtube.com/watch?v=GlgCu_GVyWQ) · [🌐 Live demo](https://limbfit.vercel.app/) · [📟 Slides](https://docs.google.com/presentation/d/1MaVEONz1I13Rs5wxqYj5hppjrX4CQdDI/edit?rtpof=true&sd=true) · [📄 PRD](docs/PRD.md) 
+[🎥 Demo video](https://www.youtube.com/watch?v=GlgCu_GVyWQ) · [🌐 Live website](https://limbfit.vercel.app/) · [📟 Slides](https://docs.google.com/presentation/d/1MaVEONz1I13Rs5wxqYj5hppjrX4CQdDI/edit?rtpof=true&sd=true) · [📋 PRD](docs/PRD.md) 
 
 <!-- TODO: replace the (#) links above with your real demo video and deployed URL -->
 
@@ -12233,7 +12238,6 @@ flowchart LR
 | **Embedding fine-tuning** | Domain-adapts the retrieval embedder (English + Roman Urdu queries) | `eval/retrieval/` | 🚧 <!-- TODO: update to ✅ once the real contrastive fine-tune is run and wired into retriever.py --> |
 | **Vision model training** | Learned model for the vision stage | `eval/vision/` | 🚧 <!-- TODO: update once trained on realistic synthetic + real photos --> |
 
-> **Transparency note:** the current training scripts in `eval/` are prototype-scale and are **not yet used by the production pipeline**. The live pipeline uses ArUco + rembg for vision and the default Chroma embedder for retrieval. See the [model card](docs/MODEL_CARD.md) and the numbers below for what is actually measured.
 
 ## 📊 Evaluation
 
@@ -12369,22 +12373,22 @@ limbfit/
   <tr>
     <td align="center" width="25%">
       <b>Saif Ur Rasool</b><br>
-      <sub>Backend and Computer Vision</sub><br>
+      <sub>Backend & CV</sub><br>
       <a href="https://www.linkedin.com/in/saif-ur-rasool">LinkedIn</a> · <a href="https://github.com/SaifRasool92">GitHub</a>
     </td>
     <td align="center" width="25%">
       <b>Zia Ur Rehman</b><br>
-      <sub>Deployment and Fine-Tunning</sub><br>
+      <sub>Deploy & Fine-Tune</sub><br>
       <a href="https://www.linkedin.com/in/zia-ur-rehman143/">LinkedIn</a> · <a href="https://github.com/Meharzain1020">GitHub</a>
     </td>
     <td align="center" width="25%">
       <b>Maryam Tariq</b><br>
-      <sub>Presentations and Slides</sub><br>
+      <sub>Presentations & Slides</sub><br>
       <a href="https://www.linkedin.com/in/mariam-tahir-">LinkedIn</a> · <a href="https://github.com/MariamTahir-07">GitHub</a>
     </td>
     <td align="center" width="25%">
       <b>Afeefa Batool</b><br>
-      <sub>Planning and Research</sub><br>
+      <sub>Planning & Research</sub><br>
       <a href="https://www.linkedin.com/in/afeefa-batool">LinkedIn</a> · <a href="https://github.com/Afeefa-Batool">GitHub</a>
     </td>
   </tr>
