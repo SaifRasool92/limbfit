@@ -9,7 +9,7 @@
 
 ### From two phone photos to a 3D-printable prosthetic socket draft, with a cited clinical checklist
 
-*AI-assisted parametric socket design for rural technicians to support in Real World.*
+*AI-assisted parametric socket design for rural technicians to support in real world*
 
 
 [🎥 Demo video](https://www.youtube.com/watch?v=GlgCu_GVyWQ) · [🌐 Live website](https://limbfit.vercel.app/) · [📟 Slides](https://docs.google.com/presentation/d/1MaVEONz1I13Rs5wxqYj5hppjrX4CQdDI/edit?rtpof=true&sd=true) · [📋 PRD](docs/PRD.md) 
