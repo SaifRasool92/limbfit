@@ -12190,7 +12190,7 @@ endsolid exported
 
 ```
 
-<!-- TODO: check the captions match the screenshots, and add a photo of a real printed socket here (strongest evidence you can add). -->
+
 
 <a id="how-it-works-section"></a>
 
