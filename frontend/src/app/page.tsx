@@ -149,9 +149,9 @@ export default function Home() {
   }, []);
 
   return (
-    <div className={`min-h-screen bg-[#080808] text-zinc-100 ${isRTL ? 'rtl' : 'ltr'}`} dir={isRTL ? 'rtl' : 'ltr'}>
+    <div className={`min-h-screen text-zinc-100 ${isRTL ? 'rtl' : 'ltr'}`} dir={isRTL ? 'rtl' : 'ltr'}>
       {/* Top Navbar */}
-      <header className="sticky top-0 z-40 border-b border-zinc-800/80 bg-[#080808]/90 backdrop-blur-md px-6 py-3.5">
+      <header className="sticky top-0 z-40 border-b border-zinc-800/80 bg-zinc-950/75 backdrop-blur-md px-6 py-3.5">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center font-bold text-white shadow-md shadow-blue-500/20">
@@ -169,7 +169,7 @@ export default function Home() {
           </div>
 
           <div className="flex items-center gap-3">
-            <div className="hidden md:flex items-center gap-2 px-3 py-1 rounded-full bg-zinc-900 border border-zinc-800 text-xs text-zinc-400">
+            <div className="hidden md:flex items-center gap-2 px-3 py-1 rounded-full bg-zinc-900/80 border border-zinc-800 text-xs text-zinc-400">
               <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
               <span>ChromaDB RAG Active</span>
             </div>
@@ -184,7 +184,7 @@ export default function Home() {
 
             <button
               onClick={toggleLang}
-              className="px-3 py-1.5 rounded-xl border border-zinc-800 bg-zinc-900 hover:border-zinc-700 text-xs font-semibold transition-all text-zinc-300"
+              className="px-3 py-1.5 rounded-xl border border-zinc-800 bg-zinc-900/80 hover:border-zinc-700 text-xs font-semibold transition-all text-zinc-300"
               aria-label="Toggle language between English and Urdu"
             >
               {t.language}
@@ -215,7 +215,7 @@ export default function Home() {
 
         {/* ─── SCREEN 1: INPUT & SCAN ─── */}
         {!result && (
-          <div className="card p-6 md:p-8 space-y-6 max-w-4xl mx-auto anim-in">
+          <div className="card p-6 md:p-8 space-y-6 max-w-4xl mx-auto anim-in bg-zinc-950/80 backdrop-blur-md">
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-4 border-b border-zinc-800">
               <div>
                 <h2 className="text-lg font-semibold text-white">{t.captureTitle}</h2>
@@ -354,7 +354,7 @@ export default function Home() {
         {result && (
           <div className="anim-in space-y-6">
             {/* Top Bar Actions */}
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-zinc-900/60 p-4 rounded-xl border border-zinc-800">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-zinc-950/80 backdrop-blur-md p-4 rounded-xl border border-zinc-800">
               <div>
                 <h2 className="text-base font-semibold text-white">{t.resultTitle}</h2>
                 <p className="text-xs text-zinc-400">Parametric Socket Model · Sliced in {result.timings_ms?.geometry ? result.timings_ms.geometry.toFixed(0) : '30'} ms</p>
@@ -387,7 +387,7 @@ export default function Home() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
               {/* Left Column: Interactive Canvas & Tab Panels (2 cols) */}
               <div className="lg:col-span-2 space-y-4">
-                <div className="card overflow-hidden">
+                <div className="card overflow-hidden bg-zinc-950/80 backdrop-blur-md">
                   {/* Tabs */}
                   <div className="tab-bar bg-zinc-900/80">
                     <button
@@ -411,7 +411,7 @@ export default function Home() {
                   </div>
 
                   {/* Tab Contents */}
-                  <div className="p-4 bg-[#0a0a0b] min-h-[500px]">
+                  <div className="p-4 bg-[#0a0a0b]/80 min-h-[500px]">
                     {activeTab === '3d' && (
                       <div className="w-full h-[520px]">
                         <SocketViewer glbUrl={result.socket_glb_url} showLimb={false} />
@@ -437,8 +437,8 @@ export default function Home() {
               {/* Right Column: Parametric Controls & Quality Gate (1 col) */}
               <div className="space-y-4">
                 {/* Parametric Controls Card */}
-                <div className="card p-5 space-y-5">
-                  <div className="flex items-center justify-between border-b border-zinc-800 pb-3">
+                <div className="card p-5 space-y-5 bg-zinc-950/80 backdrop-blur-md">
+                  <div className="files-center flex items-center justify-between border-b border-zinc-800 pb-3">
                     <h3 className="font-semibold text-white text-sm">{t.socketParams}</h3>
                     <span className="tag text-xs font-mono">Live Regenerate</span>
                   </div>
@@ -471,7 +471,7 @@ export default function Home() {
                 </div>
 
                 {/* ISO Quality Gate Card */}
-                <div className="card p-5 space-y-4">
+                <div className="card p-5 space-y-4 bg-zinc-950/80 backdrop-blur-md">
                   <div className="flex items-center justify-between border-b border-zinc-800 pb-3">
                     <h3 className="font-semibold text-white text-sm">{t.checks}</h3>
                     <span className="tag text-xs font-mono">Preliminary</span>
