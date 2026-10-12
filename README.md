@@ -16,7 +16,7 @@
 
 <!-- TODO: replace the (#) links above with your real demo video and deployed URL -->
 
-<img width="900" alt="LimbFit AI studio" src="https://github.com/user-attachments/assets/27b9ecc7-f078-4c6e-8c0f-10fbd7d1ad69" />
+<img width="900" alt="LimbFit AI studio" src="https://github.com/user-attachments/assets/38c002b8-f3ff-47ee-8499-b999a499642f" />
 
 </div>
 
@@ -74,9 +74,11 @@ No CAD experience needed. A certified prosthetist always reviews the result befo
 
 ##  Screenshots
 
+
+
 <table>
   <tr>
-    <td align="center"><img src="https://github.com/user-attachments/assets/3d9bfdf8-5866-46d5-b59c-bd7517731c86" width="100%"><br><sub><b>Capture and input</b></sub></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/c64e5f59-2ed8-407c-bff7-36c0aa6a4c50" width="100%"><br><sub><b>Capture and input</b></sub></td>
     <td align="center"><img src="https://github.com/user-attachments/assets/d1b97b42-af01-43a6-a697-b246677025af" width="100%"><br><sub><b>Socket studio with live 3D preview</b></sub></td>
   </tr>
   <tr>
