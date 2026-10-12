@@ -193,10 +193,10 @@ export default function Home() {
         </div>
       </header>
 
-      {/* Safety Notice Banner */}
+      {/* Safety Notice Banner
       <div className="bg-amber-500/10 border-b border-amber-500/20 px-4 py-2 text-center text-xs text-amber-400 font-medium">
         {t.safetyBanner}
-      </div>
+      </div> */}
 
       <main className="px-4 md:px-8 py-8 max-w-7xl mx-auto space-y-8">
         {/* Step Indicator */}
