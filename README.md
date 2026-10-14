@@ -12385,7 +12385,7 @@ limbfit/
       <a href="https://www.linkedin.com/in/zia-ur-rehman143/">LinkedIn</a> · <a href="https://github.com/Meharzain1020">GitHub</a>
     </td>
     <td align="center" width="25%">
-      <b>Maryam Tariq</b><br>
+      <b>Mariam Tahir</b><br>
       <sub>Presentations & Slides</sub><br>
       <a href="https://www.linkedin.com/in/mariam-tahir-">LinkedIn</a> · <a href="https://github.com/MariamTahir-07">GitHub</a>
     </td>
